@@ -47,6 +47,8 @@ function Home({ changeTheme, theme, sortedChains }) {
     } else return sortedChains;
   }, [testnets, sortedChains]);
 
+  
+
   return (
     <>
       <Head>
